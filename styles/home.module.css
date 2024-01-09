@@ -1,0 +1,132 @@
+/* styles/newScreen.module.css */
+.container {
+    /* 全体のレイアウトのスタイル */
+    width: 391px;
+    height: 826px;
+    flex-shrink: 0;
+    background: #fef9f0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center ; /* 垂直方向の中央揃え */
+  }
+
+  .logo {
+    /* ロゴのスタイル */
+  width: 201px;
+  height: 35px;
+  display: block;
+  margin: 85px auto 0; /* 上側の余白を追加 */
+  margin-bottom: 40px; /* 下側の余白 */
+  }
+
+  .back{
+    width: 38px;
+    height: 32px;
+    flex-shrink: 0;
+  }
+  
+  .scoreText {
+    width: 166px;
+    height: 30px;
+    flex-shrink: 0;
+    color: #787070;
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .scoreNumber {
+    font-size: 100px;
+    font-weight: bold;
+    color: #4D4747;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+  
+  .characterContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .character {
+    width: 85px;
+    height: 107.529px;
+    flex-shrink: 0;
+    margin-top: 50px;
+  }
+  
+  .balloon {
+    width: 295px;
+    height: 107px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #4D4747;
+    background: #FAF9F9;
+    color: #4D4747;
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 上下方向に中央揃えにする */
+    justify-content: center; /* 横方向に中央揃えにする */
+    text-align: center; 
+  }
+  
+  .footer {
+    width: 430px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF1DC; 
+    margin-top: 70px;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+
+
+  .footerButton {
+    /* ボタンの共通スタイル */
+    background-color:#FFF1DC;
+    color: #787070;;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+
+  .icon1 {
+    margin-top: 20px;
+    width: 135px;
+    height: 39px;
+    flex-shrink: 0;
+    margin-right:15px;
+    margin-left: 15px
+  }
+
+  /* 縦線 */
+  .verticalLine {
+    content: '';
+    width: 1px;
+    height: 70px; 
+    background-color: #787070;
+    margin: 25px 25px;
+  }
+
+  .icon2 {
+    margin-top: 20px;
+    width: 166px; /* アイコンの適切な幅に調整 */
+    height: 39px; /* アイコンの適切な高さに調整 */
+  }

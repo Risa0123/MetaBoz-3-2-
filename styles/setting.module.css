@@ -1,0 +1,102 @@
+.container {
+    /* 全体のレイアウトのスタイル */
+    width: 391px;
+    height: 826px;
+    flex-shrink: 0;
+    background: #fef9f0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center !important; /* 垂直方向の中央揃え */
+  }
+
+  .logo {
+    /* ロゴのスタイル */
+  width: 201px;
+  height: 35px;
+  display: block;
+  margin: 85px auto 0; /* 上側の余白を追加 */
+  margin-bottom: 40px; /* 下側の余白 */
+  }
+
+  .text{
+    width: auto;
+    height: 141px;
+    flex-shrink: 0;
+    color: #4D4747;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-style: normal;
+    justify-content: center !important; /* 水平方向の中央揃え */
+}
+
+.cell{
+    width: auto;
+    height: 141px;
+    flex-shrink: 0;
+    color: #4D4747;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-style: normal;
+    align-items: flex-start; /* 上揃えに設定 */
+}
+
+.inputContainer {
+    position: relative;
+  }
+
+.input {
+    /* 入力フォームのスタイル */
+    width: 285px;
+    height: 141px;
+    padding: 10px;
+    border: 1px solid #C9C3C3;
+    background-color: #FAF9F9;
+    font-size: 16px; /* 適切なサイズに調整 */
+    text-align: left; /* 左揃え */
+    align-items: flex-start; /* 上揃えに設定 */
+    line-height: 30px; /* カーソルの位置を上に調整 */
+  }
+
+  .inputLabel {
+    position: absolute;
+    top: 12px; /* 調整が必要かもしれません */
+    left: 16px; /* 調整が必要かもしれません */
+    font-size: 16px; /* 適切なサイズに調整 */
+    color: #C9C3C3;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .input textarea {
+    height: 100%;
+    line-height: 30px; /* カーソルの位置を上に調整 */
+    border: none;
+    background: none;
+    resize: none; /* ユーザーがリサイズできないようにする */
+  }
+  
+  .input::placeholder {
+    text-align: left; /* プレースホルダーのテキストを左揃えにする */
+    vertical-align: top; /* プレースホルダーの上揃え */
+  }
+
+  /* 次へボタン */
+.nextbutton {
+    background-color: #F9DEB4;
+    color: #3E3939;
+    font-family: Noto Sans;
+    border: none;
+    cursor: pointer;
+    width: 309px;
+    height: 45px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    justify-content: center !important; /* 水平方向の中央揃え */
+    align-items: center !important; /* 垂直方向の中央揃え */
+    margin-top: 300px;
+    margin-bottom: 0px;
+  }

@@ -1,0 +1,114 @@
+/* styles/Header.module.css */
+.header {
+  width: 391px;
+  height: auto;
+  flex-shrink: 0;
+  background: #FEF9F0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 垂直方向（上下）の中央揃え */
+  align-items: center; /* 水平方向（左右）の中央揃え */
+}
+
+.logo {
+  width: 201px;
+  height: 35px;
+  flex-shrink: 0;
+  margin: 0 auto; /* ロゴを中央揃え */
+  margin-top: 20px; /* 上側の余白 */
+  margin-bottom: 20px; /* 下側の余白 */
+}
+
+.registerTitle {
+  font-weight: bold !important;
+  font-size: 24px !important;
+  font-family: Noto Sans !important;
+  font-style: normal !important;
+  line-height: normal !important;
+  color: #787070 !important;
+  margin: 0 !important;/* 余白を取り除く */
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cell {
+  padding: 8px;
+}
+
+.title {
+  font-family: Noto Sans;
+  font-size: 18px;
+  color: #787070;
+  font-style: normal;
+  line-height: normal;
+  margin: 0; /* タイトルの余白を取り除く */
+}
+
+/* 全体の文字 */
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.input {
+  width: 309px;
+  height: 35px;
+  flex-shrink: 0;
+  border: 1px solid #C9C3C3;
+  background: #FAF9F9;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.genderOptions {
+  display: flex;
+  gap: 10px;
+}
+
+.heightContainer {
+  display: flex;
+  align-items: center;
+}
+
+.buttonContainer {
+  margin-top: 20px; /* 上側の余白 */
+  margin-bottom: 20px; /* 下側の余白 */
+}
+
+.button {
+  background-color: #F9DEB4;
+  color: #C9C3C3;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 309px;
+  height: 45px;
+  font-weight: bold;
+  transition: background-color 0.3s ease; /* カラーの変化をスムーズにするためのトランジション */
+}
+
+.button:disabled {
+  background-color: #C9C3C3;
+  cursor: not-allowed;
+  padding: 10px 20px;
+  width: 309px;
+  height: 45px;
+  cursor: not-allowed;
+}
+
+.button:active, .button:focus {
+  background-color: #D18E64;
+  outline: none; /* ボーダーを削除 */
+}

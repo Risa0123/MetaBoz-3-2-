@@ -1,0 +1,18 @@
+/* YourComponent.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 391px;
+    height: 826px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FEF9F0;
+  }
+  
+  .logo {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
